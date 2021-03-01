@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="35sp"
+        android:textColor="#756F6F"
+        android:background="#00BCD4"
+        android:textStyle="bold"
+        android:text="Random" />
+
+    <EditText
+        android:textSize="40sp"
+        android:hint="Enter Min"
+        android:id="@+id/editTextMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:textSize="40sp"
+        android:hint="Enter Max"
+        android:id="@+id/editTextMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_alignEnd="@id/editTextMin"
+        android:layout_alignRight="@id/editTextMin"
+        android:layout_below="@id/editTextMin"
+        android:gravity="center_horizontal" />
+</RelativeLayout>
